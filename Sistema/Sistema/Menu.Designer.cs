@@ -59,6 +59,7 @@
             this.btnCadastroFuncionarios.Text = "Cadastro de funcionários";
             this.btnCadastroFuncionarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastroFuncionarios.UseVisualStyleBackColor = true;
+            this.btnCadastroFuncionarios.Click += new System.EventHandler(this.btnCadastroFuncionarios_Click);
             // 
             // btnCadastroProdutos
             // 

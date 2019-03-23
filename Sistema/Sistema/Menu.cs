@@ -26,11 +26,19 @@ namespace Sistema
         {
             CadastroClientes frm = new CadastroClientes();
             frm.Show();
+            this.Hide();
         }
 
         private void btnCadastroProdutos_Click(object sender, EventArgs e)
         {
             CadastroDeProdutos frm = new CadastroDeProdutos();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnCadastroFuncionarios_Click(object sender, EventArgs e)
+        {
+            CadastroDeFuncionarios frm = new CadastroDeFuncionarios();
             frm.Show();
             this.Hide();
         }
