@@ -26,7 +26,6 @@ namespace Sistema
         {
             CadastroClientes frm = new CadastroClientes();
             frm.Show();
-            this.Hide();
         }
 
         private void btnCadastroProdutos_Click(object sender, EventArgs e)
